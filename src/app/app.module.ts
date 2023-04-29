@@ -17,6 +17,7 @@ import { QRCodeModule } from './configure/steps/qrcode/qrcode.module';
 import { AdminactionModule } from './adminactions/adminactions.module';
 import { SessionTimeComponent } from './shared/sessiontime/sessiontime.component';
 import { ButtonModule } from 'primeng/button';
+import { HomeModule } from './home/home.module';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { ButtonModule } from 'primeng/button';
     BrowserModule,
     AppRoutingModule,
     AppLayoutModule,
+    HomeModule,
     LoginModule,
     RegisterModule,
     ConfigureModule,
